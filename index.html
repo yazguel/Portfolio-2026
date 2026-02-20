@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yazgüls Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Yazgül Kaya</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">Über mich</a></li>
+                <li><a href="#experience">Erfahrung</a></li>
+                <li><a href="#projects">Projekte</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Yazgül Kaya</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()"> 
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">Über mich</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Erfahrung</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projekte</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Kontakt</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/profilbild.jpg" alt="Yazgül Kaya Profilbild" class="profile-img">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1"> Hallo, Ich bin</p>
+            <h1 class="title">Yazgül Kaya</h1>
+            <p class="section__text__p2">Medieninformatik Studentin <br> im 3. Semester</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" 
+                onclick="window.open('./assets/Lebenslauf_YazgülKaya_2025.pdf')">Lebenslauf downloaden</button>
+                <button class="btn btn-color-1" 
+                onclick="location.href='./#contact'">Kontaktinfo</button>
+            </div>  
+            <div id="socials-container">
+                <a href="https://www.linkedin.com/in/yazgül-kaya-a22136278" target="_blank">
+                    <img src="./assets/linkedin.png" alt="Mein LinkedIn Profil" class="icon">
+                </a>
+                <a href="https://github.com/yazguel" target="_blank">
+                    <img src="./assets/github.png" alt="Mein GitHub Profil" class="icon">
+                </a>
+            </div>  
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Erfahre mehr</p>
+        <h1 class="title">Über mich</h1>
+        <div class="section-container">
+            <!-- <div class="section_pic-container">
+                <img src="./assets/about-pic.png" alt="Profilbild" class="about-pic">   
+            </div> -->
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="erfahrung icon" class="icon"/>
+                        <h3>Erfahrung</h3>
+                        <!-- <p>1 Jahr <br> Frontend Development</p> -->
+                         <p>Coming soon...</p>
+                    </div>
+                     <div class="details-container">
+                        <img src="./assets/education.png" alt="bildung icon" class="icon">
+                        <h3>Bildung</h3>
+                        <p>B.Sc. Medieninformatik (2027)</p>
+                    </div> 
+                </div>
+                <div class="text-container">
+                    <p>Engagiert, lernbereit und offen für Neues mit einer Leidenschaft für Webdesign und Frontend-Entwicklung.<br>
+                        Nach ersten Erfahrungen in der Mediengestaltung entschied ich mich für ein Studium der Medientechnologie an der TH Köln, 
+                        bevor ich zur Hochschule Düsseldorf wechselte, um mich in Medieninformatik weiterzuentwickeln. Durch meine Ausbildung und 
+                        mein Studium konnte ich sowohl gestalterische als auch technische Fähigkeiten kombinieren, was mich besonders für die Frontend-Entwicklung begeistert.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="pfeil icon" class="icon arrow" onclick="location.href='/#experience'">
+    </section>
+    <section id="experience">
+        <p class="section__text__p1"> Erhalte einen Einblick in meine</p>
+        <h1 class="title">Erfahrung</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend-Entwicklung</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Basics</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Java</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Weitere Kenntnisse </h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Adobe InDesign</h3>
+                                <p>Fortgeschritten</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Adobe Photoshop</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Adobe Illustrator</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Git</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Figma</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="pfeil icon" class="icon arrow" onclick="location.href='/#projects'">
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Endecke meine</p>
+        <h1 class="title">Projekte</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container"> 
+                <div class="article-container"> 
+                    <img src="./assets/AboutTime Mockup.png" alt="Projekt 1" class="project-img"><!-- ändern -->
+                </div>
+                <h2 class="experience-sub-title project-title">About Time Storygame</h2>
+                <p>2.Semester</p><br>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 projekt-btn" onclick="window.open('./assets/Yazgül_Kaya_MG2_1008537_Portfolio.pdf')"><!-- ändern -->
+                        Über das Projekt<!-- ändern zu meinen projekten  -->
+                    </button>
+                    <button class="btn btn-color-2 projekt-btn" onclick="window.open('https://www.figma.com/design/pU4ad4ATgMsoKjEFsdk3Yp/ABOUT-TIME-%E2%80%93-Spiel-UI?node-id=0-1&t=hi6oOjmJNhErNXY0-1')"><!-- ändern -->
+                        Live Demo in Figma<!-- fertiges produkt verlinken  -->
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container"> 
+                <div class="article-container"> 
+                    <img src="./assets/Antike Mockup.png" alt="Projekt 2" class="project-img"><!-- ändern -->
+                </div>
+                <h2 class="experience-sub-title project-title">Parallax Scrolling Evolution</h2>
+                <p>2.Semester</p><br>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 projekt-btn" onclick="window.open('https://github.com/yazguel/parallax-scrolling-project/tree/master', '_blank')"><!-- ändern -->
+                        GitHub<!-- ändern zu meinen projekten  -->
+                    </button>
+                    <button class="btn btn-color-2 projekt-btn" onclick="window.open('https://github.com', '_blank')"><!-- ändern -->
+                        Live Demo (Coming soon)<!-- fertiges produkt verlinken  -->
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container"> 
+                <div class="article-container"> 
+                    <img src="./assets/hsd-snake-mockup.png" alt="Projekt 3" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Campus Snake</h2>
+                <p>3.Semester</p><br>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 projekt-btn" onclick="window.open('https://github.com', '_blank')"><!-- ändern -->
+                        GitHub (Coming soon)<!-- ändern zu meinen projekten  -->
+                    </button>
+                    <button class="btn btn-color-2 projekt-btn" onclick="window.open('https://github.com', '_blank')"><!-- ändern -->
+                        Live Demo (Coming soon)<!-- fertiges produkt verlinken  -->
+                    </button>
+                </div>
+            </div></div>
+        </div>
+        <img src="./assets/arrow.png" alt="pfeil icon" class="icon arrow" onclick="location.href='/#contact'">
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Lass uns in Verbindung treten</p>
+        <h1 class="title">Kontaktiere mich</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="email icon" class="icon contact-icon mail-icon">
+                <p><a href="mailto:yazguelkaya@hotmail.com">yazguelkaya@hotmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/yazgül-kaya-a22136278" target="_blank">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">Über mich</a></li>
+                    <li><a href="#experience">Erfahrung</a></li>
+                    <li><a href="#projects">Projekte</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2025 Yazgül Kaya. Alle Rechte vorbehalten </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
