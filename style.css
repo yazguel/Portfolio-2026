@@ -154,8 +154,6 @@ a:hover {
 /* SECTIONS */
 
 .profile-img {
-    width: 330px; /* Größe des Bildes anpassen */
-    height: 330px;
     border-radius: 50%; /* Macht das Bild rund */
     object-fit: cover; /* Stellt sicher, dass das Bild gut aussieht */
 }
@@ -182,8 +180,8 @@ section {
 }
 
 .profile-img {
-    width: 350px;
-    height: 350px;
+    width: 360px;
+    height: 360px;
 }
 
 .section_pic-container {
