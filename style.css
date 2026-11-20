@@ -369,6 +369,23 @@ article .icon {
     cursor: default;
 }
 
+/* drei Skill-Karten: umbrechen statt überlaufen */
+#experience .about-containers {
+    flex-wrap: wrap;
+}
+
+#experience .details-container {
+    flex: 1 1 22rem;
+}
+
+#experience .article-container {
+    gap: 1.5rem 1rem;
+}
+
+#experience article {
+    width: auto;
+}
+
 /* PROJECTS */
 
 #projects {
